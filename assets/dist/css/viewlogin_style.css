@@ -1,0 +1,69 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+.main-head{
+     height: 1000px; 
+    background: #FFF;
+   
+}
+
+
+.main {
+    padding: 0px 15px 20px 150px;
+
+}
+
+ @media screen and (max-height: 1000px) {
+    .sidenav {padding-bottom: : 15px;}
+} 
+
+ @media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+} 
+
+@media screen and (){
+    /*.main{
+        margin-right: 40%; 
+    }
+*/
+    .sidenav{
+      
+        width: 60%;
+         height: 1000%; 
+        position: fixed;
+        z-index: 0;
+        top: 0;
+        right: 0;
+        -webkit-filter: grayscale(70%);  Safari 6.0 - 9.0 
+        filter: grayscale(70%);
+    }
+
+    .login-form{
+        margin-top: 30%;
+    }
+}
+
+
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.footer {
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+    background-color:#ba2b2b;
+   opacity: 0.9;
+  filter: alpha(opacity=70); 
+}
